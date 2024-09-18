@@ -1,0 +1,20 @@
+server:
+  port: {SERVER_PORT:8080}
+spring:
+  application:
+    name: orcafina
+  datasource:
+    url: jdbc:hsqldb:file:db/data;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    initialization-mode: always
+    platform: hsqldb
+  jpa:
+    hibernate:
+      ddl-auto:  none
+logging:
+  default: {LOG_LEVEL:INFO} 
+  level:
+    data: {LOG_LEVEL:INFO} 
+    org.springframework: {LOG_LEVEL:INFO} 
+    org.marcelocc.orcafina: {LOG_LEVEL:INFO} 
