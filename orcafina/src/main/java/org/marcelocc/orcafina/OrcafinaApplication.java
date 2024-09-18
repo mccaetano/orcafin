@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class OrcafinaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrcafinApplication.class, args);
+		SpringApplication.run(OrcafinaApplication.class, args);
 	}
 
 }
